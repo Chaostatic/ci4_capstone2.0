@@ -1,0 +1,42 @@
+ERROR - 2024-01-29 21:16:04 --> mysqli_sql_exception: Table 'dot_managementdb.news' doesn't exist in C:\xampp\htdocs\ci4-capstone101\ci4_capstone1.0\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ci4-capstone101\ci4_capstone1.0\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\xampp\htdocs\ci4-capstone101\ci4_capstone1.0\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\xampp\htdocs\ci4-capstone101\ci4_capstone1.0\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\xampp\htdocs\ci4-capstone101\ci4_capstone1.0\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\ci4-capstone101\ci4_capstone1.0\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4-capstone101\ci4_capstone1.0\system\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 C:\xampp\htdocs\ci4-capstone101\ci4_capstone1.0\app\Controllers\Home.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4-capstone101\ci4_capstone1.0\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\ci4-capstone101\ci4_capstone1.0\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 C:\xampp\htdocs\ci4-capstone101\ci4_capstone1.0\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\xampp\htdocs\ci4-capstone101\ci4_capstone1.0\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4-capstone101\ci4_capstone1.0\system\Commands\Server\rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2024-01-29 21:16:04 --> Table 'dot_managementdb.news' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Controllers\Home.php(17): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ci4-capstone101\\ci4_capstone1.0\\public\\index.php')
+INFO - 2024-01-29 21:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 21:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 21:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 21:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 21:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 21:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 21:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 21:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 21:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 21:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 21:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 21:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-29 21:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
