@@ -41,7 +41,7 @@ class FoodController extends Controller
             !$this->validate([
                 'name' => 'required',
                 'description' => 'required',
-                'image' => 'uploaded[image]|max_size[image,1024]|ext_in[image,jpg,jpeg,png,gif]',
+                'image' => 'uploaded[image]|max_size[image,100024]|ext_in[image,jpg,jpeg,png,gif]',
                 // ... (other validation rules)
             ])
         ) {

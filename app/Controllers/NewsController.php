@@ -40,7 +40,7 @@ class NewsController extends Controller
         if (!$this->validate([
             'name' => 'required',
             'description' => 'required',
-            'image' => 'uploaded[image]|max_size[image,1024]|ext_in[image,jpg,jpeg,png,gif]',
+            'image' => 'uploaded[image]|max_size[image,100024]|ext_in[image,jpg,jpeg,png,gif]',
             // ... (other validation rules)
         ])) {
             // If validation fails, redirect back with errors
